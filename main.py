@@ -124,8 +124,7 @@ def display_results(counters):
     highest_counters = [key for key, value in counters.items() if value == max_value] #list for counters w/ highest numbers
     highest_values = [counters[key] for key in highest_counters] 
     return highest_counters,highest_values
-
-'''Follwoing code lists out questions and answer choices. It also includes a submit button- needed to record each answer. '''
+    
 
 #QUESTION 1
 question = 1
