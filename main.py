@@ -263,7 +263,6 @@ if all_questions_submitted:
     show_results_button = st.button("Show Results")
     if show_results_button:
         results, values = display_results(counters)
-        values = str(values)
         st.subheader("PHBA PROGRAM(S) THAT BEST FITS YOU:")
         for key in results:
             #Find the index of the first occurrence of ':'
