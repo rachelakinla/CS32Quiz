@@ -130,7 +130,7 @@ def display_results(counters):
 question = 1
 st.subheader("Question 1 : ") 
 with st.form("question1"):
-    options = [" "]+ ["Morning"] + ["Afternoon"] + ["Night"]
+    options = [" "]+ ["Morning"] + ["Afternoon"] + ["Evening"]
     selection = st.selectbox("What time of day are you most available?", options=options)
     st.form_submit_button()
     if selection== " ":
