@@ -1,0 +1,2 @@
+This code is run through streamlit. Files in repository are necessary for the code to properly function and display all images. This code works by first defining the functions updateCounter to 
+add points to the counters after a user has answered the questions, and the function display results, which takes the counters and tallys the one(s) with the highest counter values, and displays the result of the quiz.
