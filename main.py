@@ -4,7 +4,7 @@ import streamlit as st
 st.image("logo.png", width= 800)
 
 #COUNTERS AND DEFINITIONS
-counters = {"SUP_counter": 0, "ADULT_counter": 0, "ADVO_counter": 0, "HH_counter": 0, "MENT_counter": 0, "AFTERSCHOOL_counter": 0, "INSCHOOL_counter": 0, "SHELTER_counter":0 } 
+counters = {"ADULT_counter": 0, "ADVO_counter": 0, "HH_counter": 0, "MENT_counter": 0, "AFTERSCHOOL_counter": 0, "INSCHOOL_counter": 0, "SHELTER_counter":0 } 
 
 all_questions_submitted = False
 questions_answered_counter = 0
